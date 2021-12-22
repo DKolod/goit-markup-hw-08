@@ -1,13 +1,22 @@
 .hero__title {
   font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
+  // font-size: 44px;
+  font-size: 26px;
+  // line-height: 1.36; lap
+  line-height: 1.62;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--third-text-color);
-  width: 700px;
+  // width: 700px; Lap
   margin: 0px auto;
+  max-width: 360px;
+  @media screen and (min-width: 1200px) {
+    font-size: 44px;
+    line-height: 1.36;
+    max-width: 700px;
+    margin: 0 auto;
+  }
 }
 .hero {
   background-color: #2f303a;
@@ -21,8 +30,12 @@
   background-size: cover;
   margin: 0px auto;
   text-align: center;
-  padding: 200px 0;
-  width: 1600px;
+  // padding: 200px 0; lap
+  padding: 118px 0;
+  // width: 1600px; lap
+  @media screen and (min-width: 1200px) {
+    padding: 200px 0;
+  }
 }
 /* Кнопка в секции hero */
 
