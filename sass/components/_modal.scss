@@ -1,4 +1,3 @@
-/* ----------------------backdrop-------------------- */
 .backdrop {
   width: 100vw;
   height: 100vh;
@@ -163,17 +162,23 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 5px;
+  // margin-left: 5px;
   // font-size: 14px; lap
   // line-height: 1.71; lap
   font-size: 12px;
   line-height: 1.16;
+  white-space: nowrap;
+
   @media screen and (min-width: 1200px) {
     font-size: 14px;
     line-height: 1.71;
   }
   letter-spacing: 0.03em;
   color: #757575;
+  width: 100%;
+}
+.textmodal {
+  display: flex;
 }
 .ckeck-icon {
   fill: #ffffff;
@@ -189,10 +194,14 @@
   font-style: normal;
   font-weight: normal;
   display: block;
-  font-size: 14px;
-  line-height: 1.71;
   letter-spacing: 0.03em;
   text-decoration-line: underline;
+  font-size: 12px;
+  line-height: 1.16;
+  @media screen and (min-width: 1200px) {
+    font-size: 14px;
+    line-height: 1.71;
+  }
 
   color: #2196f3;
 }
