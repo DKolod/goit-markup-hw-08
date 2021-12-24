@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="./CSS/main.min.css" />
   </head>
   <body>
-    <!-- <header class="header">
+    <header class="header">
       <div class="container main-nav">
         <nav class="header__navigation">
           <a class="header__logo link" href="./index.html"
@@ -65,8 +65,58 @@
             >
           </li>
         </ul>
+        <button type="button" class="open-menu-btn">
+          <svg width="40" height="40">
+            <use href="./images/icons/icons.svg#icon-menu"></use>
+          </svg>
+        </button>
       </div>
-    </header> -->
+      <div class="mob-menu">
+        <div class="container">
+          <button type="button" class="close-menu-btn">
+            <svg class="menu-close__icon" width="40" height="40">
+              <use href="./images/icons/icons.svg#icon-close"></use>
+            </svg>
+          </button>
+          <ul class="list mob-menu__list">
+            <li class="mob-menu__item">
+              <a class="link mob-menu__link" href="./index.html">Студия</a>
+            </li>
+            <li class="mob-menu__item">
+              <a
+                class="link mob-menu__link mob-menu__link--carrent"
+                href="./portfolio.html"
+                >Портфолио</a
+              >
+            </li>
+            <li class="mob-menu__item">
+              <a class="link mob-menu__link" href="">Контакты</a>
+            </li>
+          </ul>
+          <ul class="list mob-menu-contacts">
+            <li class="mob-menu-contacts__item">
+              <a class="mob-menu-contacts__tel link" href="tel:+380961111111">
+                +38 096 111 11 11</a
+              >
+            </li>
+            <li class="mob-menu-contacts__item">
+              <a
+                class="mob-menu-contacts__mail link"
+                href="mailto:info@devstudio.com"
+              >
+                info@devstudio.com</a
+              >
+            </li>
+          </ul>
+          <ul class="mob-menu_socials">
+            <li><a href="">Instagram</a></li>
+            <li><a href="">Twitter</a></li>
+            <li><a href="">Facebook</a></li>
+            <li><a href="">LinkedIn</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
     <main>
       <section class="filter">
         <div class="container">
