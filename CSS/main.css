@@ -971,6 +971,12 @@ body {
   border-right: 1px solid #eeeeee;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .projects-item-container {
+    flex-grow: 1;
+  }
+}
+
 .projects-item-container > h3 {
   font-weight: bold;
   font-size: 18px;
@@ -988,6 +994,14 @@ body {
 
 .prajects-title {
   margin-bottom: 4px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .projects-link {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
 }
 
 .projects-link:hover .projects-item-top-text,
